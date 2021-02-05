@@ -29,13 +29,14 @@ public class Covid19 extends JApplet {
     private static final int JFXPANEL_WIDTH_INT = 300;
     private static final int JFXPANEL_HEIGHT_INT = 250;
     private static JFXPanel fxContainer;
-   system.out.ptimntln();
+   
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+           System.out.println("dd");
         SwingUtilities.invokeLater(new Runnable() {
-            
+         
             @Override
             public void run() {
                 try {
