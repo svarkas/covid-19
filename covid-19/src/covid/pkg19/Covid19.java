@@ -34,7 +34,6 @@ public class Covid19 extends JApplet {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-           System.out.println("dd");
         SwingUtilities.invokeLater(new Runnable() {
          
             @Override
